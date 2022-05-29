@@ -1,19 +1,4 @@
-streamlit installing code:
-
-	pip install streamlit
-
-insalling seaborn code:
-
-	pip install seaborn
-
-installing plotly code:
-
-	pip install dash
-
-installing menu bar:
-
-	pip install streamlit-option-menu
-
-run streamlit in local machine code:
-
-	streamlit run autoindus-analysis.py
+streamlit
+seaborn
+plotly
+streamlit-option-menu
