@@ -1,4 +1,8 @@
 streamlit
+matplotlib
+numpy
+pandas
+scipy
 seaborn
 plotly
 streamlit-option-menu
