@@ -5,22 +5,26 @@ I analysis the car dataset for which is the customer best choice to buying in al
 
 Installation procedure:
 
-streamlit installing code:
+Streamlit installing code:
 
 	pip install streamlit
 
-insalling seaborn code:
+Insalling seaborn code:
 
 	pip install seaborn
 
-installing plotly code:
+Installing plotly code:
 
 	pip install dash
 
-installing menu bar:
+Installing menu bar:
 
 	pip install streamlit-option-menu
 
 Code for running in local machine:
 
 	streamlit run autoindus-analysis.py
+
+
+This is My Web Application link:
+	https://share.streamlit.io/athesh007/car_data_analysis/main/autoindus-analysis.py
