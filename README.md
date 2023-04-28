@@ -1,30 +1,43 @@
-# car_data_analysis
+# Car Data Analysis using Streamlit
 
-The automotive industry is a term that covers a wide range of companies and organisations involved in the design, development, manufacture, marketing, and selling of motor vehicles, towed vehicles, motorcycles and mopeds. It is one of the world's most important economic sectors by revenue. The term automotive industry usually does not include industries dedicated to the maintenance of automobiles following delivery to the end-user, such as repair shops and motor fuel filling stations.
-I analysis the car dataset for which is the customer best choice to buying in all time and help to improve the future car model in automotive industry. In future the electronic cars are play important role in automotive industry. 
+This repository contains a data analysis project on car sales data with a user-friendly interface created using Streamlit. The data was obtained from [Kaggle](https://www.kaggle.com/goyalshalini93/car-data).
 
-Installation procedure:
+The project is done using Python and its popular data analysis libraries such as Pandas, Matplotlib, Seaborn, and Streamlit.
 
-Streamlit installing code:
+## Contents
 
-	pip install streamlit
+- `car_data.csv` - raw data file.
+- `car_data_analysis.py` - Python script for the Streamlit app.
+- `README.md` - this file.
 
-Insalling seaborn code:
+## Installation
 
-	pip install seaborn
+1. Clone the repository to your local machine.
+2. Install the required libraries by running `pip install -r requirements.txt` in your terminal.
 
-Installing plotly code:
+## Usage
 
-	pip install dash
+Run the following command in your terminal to start the Streamlit app:
 
-Installing menu bar:
+```
+streamlit run car_data_analysis.py
+```
 
-	pip install streamlit-option-menu
+Open your web browser and go to the URL provided in the terminal to use the app.
 
-Code for running in local machine:
+## Results
 
-	streamlit run autoindus-analysis.py
+The analysis explores the car sales data to answer the following questions:
 
+1. What are the top 10 car brands sold in the US?
+2. Which brand has the maximum average price of cars?
+3. Which body type of cars sold the most?
+4. Which state has the most number of car sales?
+5. What is the correlation between the car price and car mileage?
+6. How does the price distribution vary with respect to body type?
 
-This is My Web Application link:
-	https://share.streamlit.io/athesh007/car_data_analysis/main/autoindus-analysis.py
+The analysis is presented with descriptive statistics, visualizations, and insights in a user-friendly interface created using Streamlit.
+
+## Contributing
+
+Feel free to contribute to this project by opening an issue or submitting a pull request.
